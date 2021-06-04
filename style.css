@@ -5,3 +5,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.color-white{
+    color: #fff;
+}
+
+/* Header */
+
+section.main-header{
+height: 80px;
+background-color: blue;
+}
