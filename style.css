@@ -26,6 +26,10 @@ body{
     background-color: #000;
 }
 
+.bg-color-lightgrey{
+    background-color: #f6f6f6;
+}
+
 .clearfix::after{
 content: "";
 clear: both;
@@ -135,14 +139,16 @@ a.header-button{
 
 /* Main */
 
-main section{
+.main-section{
     height: 685px;
+    border: 2px solid black;
     position: relative;
 }
 
 div.container{
     height: 80%;
     width: 1200px;
+    border: 5px solid red;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -150,22 +156,22 @@ div.container{
 }
 
 .image-side{
-    width: 70%;
+    width: 60%;
     height: 100%;
 }
 
 div.description-side{
-    width: 30%;
+    width: 40%;
     height: 100%;
 }
 
 div.description-side h2{
     font-size: 45px;
-    padding: 30px 10px 0px;
+    padding: 30px 15px 0px;
 }
 
 div.description-side p{
     line-height: 30px;
     font-size: 18px;
-    padding: 20px 10px;
+    padding: 20px 15px;
 }
