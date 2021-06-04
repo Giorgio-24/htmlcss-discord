@@ -14,9 +14,43 @@ body{
     color: #fff;
 }
 
+.color-black{
+    color: #000;
+}
+
+.clearfix::after{
+content: "";
+clear: both;
+display: table;
+}
+
+.float-left{
+    float: left;
+}
+
 /* Header */
 
 section.main-header{
 height: 80px;
-background-color: blue;
+background-color: #255ee9;
+}
+
+div.navigation-container{
+max-width: 1200px;
+height: 100%;
+margin: 0 auto;
+background-color: blueviolet;
+line-height: 80px;
+vertical-align: middle;
+}
+
+header.header-box{
+    height: 550px;
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#logo{
+    vertical-align: middle;
 }
