@@ -30,6 +30,10 @@ body{
     background-color: #f6f6f6;
 }
 
+.bg-color-sort-of-lightblue{
+    background-color: #8ea1e1;
+}
+
 .clearfix::after{
 content: "";
 clear: both;
@@ -131,7 +135,7 @@ i{
 padding-right:5px;
 }
 
-a.header-button{
+a.my-button{
     margin: 5px;
     padding: 12px 25px;
     border-radius: 30px;
@@ -141,14 +145,12 @@ a.header-button{
 
 .main-section{
     height: 685px;
-    border: 2px solid black;
     position: relative;
 }
 
 div.container{
     height: 80%;
     width: 1200px;
-    border: 5px solid red;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -165,13 +167,51 @@ div.description-side{
     height: 100%;
 }
 
-div.description-side h2{
+h2.big-title{
     font-size: 45px;
     padding: 30px 15px 0px;
 }
 
-div.description-side p{
+p.special-paragraph{
     line-height: 30px;
     font-size: 18px;
     padding: 20px 15px;
 }
+
+section.bigger-main-section{
+    height: 1370px;
+    position: relative;
+    text-align: center;
+}
+
+section.bigger-main-section div.container div:first-child {
+    padding: 0 110px;
+}
+
+#big-image-container{
+    height: 650px;
+}
+
+div#big-image-container img{
+    height: 100%;
+}
+
+#main-end{
+    padding-top: 38px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-image: url(./img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#main-end h3{
+    font-size: 26px;
+}
+
+#last-main-button-container{
+    margin-top: 40px;
+}
+
+/* Footer */
