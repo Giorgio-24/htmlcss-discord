@@ -18,6 +18,10 @@ body{
     color: #000;
 }
 
+.bg-color-white{
+    background-color: #fff;
+}
+
 .clearfix::after{
 content: "";
 clear: both;
@@ -27,6 +31,11 @@ display: table;
 .float-left{
     float: left;
 }
+
+a{
+    text-decoration: none;
+}
+
 
 /* Header */
 
@@ -39,9 +48,10 @@ div.navigation-container{
 max-width: 1200px;
 height: 100%;
 margin: 0 auto;
-background-color: blueviolet;
 line-height: 80px;
 vertical-align: middle;
+font-size: 14px;
+
 }
 
 header.header-box{
@@ -51,6 +61,33 @@ header.header-box{
     background-position: center;
 }
 
+nav.webpage-navigation{
+    margin: 0 0px;
+    text-align: center;
+}
+
 #logo{
     vertical-align: middle;
+}
+
+nav.webpage-navigation ul{
+    padding: 0 165px;
+}
+
+nav.webpage-navigation ul li a{
+    margin: 0 20px;
+    color: #fff;
+}
+
+nav.webpage-navigation ul li a:hover{
+    color: #000;
+}
+
+nav.webpage-navigation ul li{
+    display: inline-block;
+}
+
+a.access{
+    padding: 10px 15px;
+    border-radius: 20px;
 }
